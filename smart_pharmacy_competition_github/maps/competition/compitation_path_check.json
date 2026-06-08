@@ -1,0 +1,234 @@
+{
+  "folder": "D:\\Table\\smart_hospital_ws\\省赛最终点位和地图",
+  "yaml_path": "D:\\Table\\smart_hospital_ws\\省赛最终点位和地图\\compitation.yaml",
+  "pgm_path": "D:\\Table\\smart_hospital_ws\\省赛最终点位和地图\\compitation.pgm",
+  "yaml_image_field": "compitation..pgm",
+  "yaml_image_exists": false,
+  "fixed_yaml_path": "D:\\Table\\smart_hospital_ws\\省赛最终点位和地图\\compitation.fixed.yaml",
+  "map": {
+    "width": 128,
+    "height": 152,
+    "resolution": 0.05,
+    "origin": [
+      -3.405656,
+      -1.957087,
+      0.0
+    ],
+    "free_cells": 4912,
+    "unknown_cells": 12942,
+    "occupied_cells": 1602
+  },
+  "points": {
+    "start": {
+      "world": [
+        0.0,
+        0.0
+      ],
+      "pixel": [
+        68,
+        112
+      ],
+      "cell_type": "free",
+      "nearest_free": [
+        68,
+        112,
+        0
+      ],
+      "nearest_free_distance_m": 0.0
+    },
+    "A": {
+      "world": [
+        0.7,
+        2.55
+      ],
+      "pixel": [
+        82,
+        61
+      ],
+      "cell_type": "free",
+      "nearest_free": [
+        82,
+        61,
+        0
+      ],
+      "nearest_free_distance_m": 0.0
+    },
+    "B": {
+      "world": [
+        1.501,
+        3.05
+      ],
+      "pixel": [
+        98,
+        51
+      ],
+      "cell_type": "free",
+      "nearest_free": [
+        98,
+        51,
+        0
+      ],
+      "nearest_free_distance_m": 0.0
+    },
+    "C": {
+      "world": [
+        1.42,
+        2.06
+      ],
+      "pixel": [
+        97,
+        71
+      ],
+      "cell_type": "free",
+      "nearest_free": [
+        97,
+        71,
+        0
+      ],
+      "nearest_free_distance_m": 0.0
+    },
+    "1": {
+      "world": [
+        -1.584,
+        2.53
+      ],
+      "pixel": [
+        36,
+        61
+      ],
+      "cell_type": "free",
+      "nearest_free": [
+        36,
+        61,
+        0
+      ],
+      "nearest_free_distance_m": 0.0
+    },
+    "2": {
+      "world": [
+        -0.83,
+        1.82
+      ],
+      "pixel": [
+        52,
+        75
+      ],
+      "cell_type": "free",
+      "nearest_free": [
+        52,
+        75,
+        0
+      ],
+      "nearest_free_distance_m": 0.0
+    },
+    "3": {
+      "world": [
+        -1.615,
+        1.58
+      ],
+      "pixel": [
+        36,
+        80
+      ],
+      "cell_type": "free",
+      "nearest_free": [
+        36,
+        80,
+        0
+      ],
+      "nearest_free_distance_m": 0.0
+    },
+    "4": {
+      "world": [
+        -0.807,
+        0.98
+      ],
+      "pixel": [
+        52,
+        92
+      ],
+      "cell_type": "free",
+      "nearest_free": [
+        52,
+        92,
+        0
+      ],
+      "nearest_free_distance_m": 0.0
+    }
+  },
+  "route_assumed": [
+    "start",
+    "A",
+    "B",
+    "C",
+    "1",
+    "2",
+    "3",
+    "4",
+    "start"
+  ],
+  "segments": [
+    {
+      "from": "start",
+      "to": "A",
+      "reachable": true,
+      "path_len_m": 3.5935028842544408,
+      "points": 65,
+      "straight_clear": false
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "reachable": true,
+      "path_len_m": 1.0071067811865475,
+      "points": 17,
+      "straight_clear": true
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "reachable": true,
+      "path_len_m": 1.0207106781186548,
+      "points": 21,
+      "straight_clear": true
+    },
+    {
+      "from": "C",
+      "to": "1",
+      "reachable": true,
+      "path_len_m": 4.549137802864845,
+      "points": 75,
+      "straight_clear": false
+    },
+    {
+      "from": "1",
+      "to": "2",
+      "reachable": false,
+      "reason": "no path in free grid after obstacle inflation",
+      "straight_clear": false
+    },
+    {
+      "from": "2",
+      "to": "3",
+      "reachable": false,
+      "reason": "no path in free grid after obstacle inflation",
+      "straight_clear": false
+    },
+    {
+      "from": "3",
+      "to": "4",
+      "reachable": false,
+      "reason": "no path in free grid after obstacle inflation",
+      "straight_clear": false
+    },
+    {
+      "from": "4",
+      "to": "start",
+      "reachable": false,
+      "reason": "no path in free grid after obstacle inflation",
+      "straight_clear": false
+    }
+  ],
+  "annotated": "D:\\Table\\smart_hospital_ws\\省赛最终点位和地图\\compitation_waypoint_path_check.png",
+  "decoded_points_text_utf8": "需要将以下坐标信息设置在裁判软件中：\r\n\r\n起点：[0,0]\r\nA点：[0.700, 2.550]\r\nB点：[1.501, 3.050]\r\nC点：[1.420, 2.060]\r\n1点：[-1.584, 2.530]\r\n2点：[-0.830, 1.820]\r\n3点：[-1.615, 1.580]\r\n4点：[-0.807, 0.980]\r\n\r\n"
+}

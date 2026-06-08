@@ -1,0 +1,13 @@
+# Real sampled waypoints on calibrated 3.8m x 4.9m map
+# Generated from stationary TF sampling. theta is yaw in radians.
+waypoints:
+  start: {x: -0.747, y: 0.303, theta: -0.113}
+  board_1: {x: -0.012, y: 0.274, theta: -0.010}
+  board_2: {x: -0.214, y: 2.619, theta: -2.936}
+  window_A: {x: -0.668, y: 1.259, theta: 0.996}
+  window_B: {x: -0.573, y: 0.296, theta: -0.679}
+  window_C: {x: 0.750, y: 1.685, theta: 1.434}
+  lab_window_1: {x: -0.980, y: 0.608, theta: -0.930}
+  lab_window_2: {x: -0.130, y: 2.172, theta: -1.548}
+  lab_window_3: {x: -0.947, y: 1.833, theta: -1.783}
+  lab_window_4: {x: -0.059, y: 0.977, theta: -1.181}

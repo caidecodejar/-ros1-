@@ -1,0 +1,38 @@
+<launch>
+  <arg name="send_goals" default="false"/>
+  <arg name="board1" default="A:1"/>
+  <arg name="board2" default="FREE"/>
+  <arg name="timeout" default="120.0"/>
+  <arg name="waypoints" default="$(find ros1_smart_pharmacy_patrol)/config/waypoints.yaml"/>
+  <arg name="use_live_board1" default="false"/>
+  <arg name="use_live_board2" default="false"/>
+  <arg name="board1_wait_timeout" default="12.0"/>
+  <arg name="board2_wait_timeout" default="12.0"/>
+  <arg name="execute_all_board1_tasks" default="true"/>
+  <arg name="max_board1_tasks" default="2"/>
+  <arg name="board2_default_wait" default="5"/>
+  <arg name="board2_max_wait" default="30"/>
+  <arg name="board2_free_pass_sec" default="0.5"/>
+  <arg name="board2_apply_only_matching_window" default="true"/>
+
+  <node pkg="ros1_smart_pharmacy_patrol"
+        type="patrol_mission.py"
+        name="smart_pharmacy_patrol"
+        output="screen">
+    <param name="waypoints" value="$(arg waypoints)"/>
+    <param name="send_goals" value="$(arg send_goals)"/>
+    <param name="board1" value="$(arg board1)"/>
+    <param name="board2" value="$(arg board2)"/>
+    <param name="timeout" value="$(arg timeout)"/>
+    <param name="use_live_board1" value="$(arg use_live_board1)"/>
+    <param name="use_live_board2" value="$(arg use_live_board2)"/>
+    <param name="board1_wait_timeout" value="$(arg board1_wait_timeout)"/>
+    <param name="board2_wait_timeout" value="$(arg board2_wait_timeout)"/>
+    <param name="execute_all_board1_tasks" value="$(arg execute_all_board1_tasks)"/>
+    <param name="max_board1_tasks" value="$(arg max_board1_tasks)"/>
+    <param name="board2_default_wait" value="$(arg board2_default_wait)"/>
+    <param name="board2_max_wait" value="$(arg board2_max_wait)"/>
+    <param name="board2_free_pass_sec" value="$(arg board2_free_pass_sec)"/>
+    <param name="board2_apply_only_matching_window" value="$(arg board2_apply_only_matching_window)"/>
+  </node>
+</launch>

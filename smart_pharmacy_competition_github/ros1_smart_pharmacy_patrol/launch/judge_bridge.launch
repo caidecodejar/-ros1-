@@ -1,0 +1,28 @@
+<launch>
+  <arg name="judge_host" default="192.168.12.248"/>
+  <arg name="judge_port" default="8888"/>
+  <arg name="source_ip" default=""/>
+  <arg name="send_hz" default="5.0"/>
+  <arg name="initial_task" default="start"/>
+  <arg name="initial_cv1" default=""/>
+  <arg name="initial_cv2" default=""/>
+  <arg name="map_frame" default="map"/>
+  <arg name="base_frame" default="base_footprint"/>
+  <arg name="include_stamp" default="false"/>
+
+  <node pkg="ros1_smart_pharmacy_patrol"
+        type="judge_bridge.py"
+        name="judge_bridge"
+        output="screen">
+    <param name="judge_host" value="$(arg judge_host)"/>
+    <param name="judge_port" value="$(arg judge_port)"/>
+    <param name="source_ip" value="$(arg source_ip)"/>
+    <param name="send_hz" value="$(arg send_hz)"/>
+    <param name="initial_task" value="$(arg initial_task)"/>
+    <param name="initial_cv1" value="$(arg initial_cv1)"/>
+    <param name="initial_cv2" value="$(arg initial_cv2)"/>
+    <param name="map_frame" value="$(arg map_frame)"/>
+    <param name="base_frame" value="$(arg base_frame)"/>
+    <param name="include_stamp" value="$(arg include_stamp)"/>
+  </node>
+</launch>

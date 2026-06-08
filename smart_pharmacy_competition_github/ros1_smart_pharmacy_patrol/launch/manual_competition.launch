@@ -1,0 +1,61 @@
+<launch>
+  <arg name="judge_host" default="192.168.12.248"/>
+  <arg name="judge_port" default="8888"/>
+  <arg name="judge_source_ip" default="192.168.12.1"/>
+  <arg name="send_hz" default="5.0"/>
+  <arg name="start_board2_ocr" default="true"/>
+  <arg name="start_manual_arrival_voice" default="true"/>
+  <arg name="start_auto_arrival_detector" default="false"/>
+  <arg name="auto_arrival_waypoints" default="$(find ros1_smart_pharmacy_patrol)/config/waypoints_real.yaml"/>
+  <arg name="auto_arrival_pickup_radius" default="0.32"/>
+  <arg name="auto_arrival_lab_radius" default="0.32"/>
+  <arg name="auto_arrival_dwell_sec" default="1.0"/>
+  <arg name="initial_task" default="start"/>
+  <arg name="initial_cv1" default=""/>
+  <arg name="initial_cv2" default="FREE"/>
+  <arg name="qr_valid_codes" default=""/>
+  <arg name="qr_slot_order" default="1,2,3,4"/>
+  <arg name="board2_default_wait" default="5"/>
+  <arg name="board2_max_wait" default="30"/>
+
+  <!--
+    Conservative race mode:
+    - keyboard teleop is the only /cmd_vel command source;
+    - QR/OCR nodes only publish recognition and voice/judge topics;
+    - patrol_mission and move_base goals are intentionally disabled.
+  -->
+  <include file="$(find ros1_smart_pharmacy_patrol)/launch/competition.launch">
+    <arg name="start_judge_bridge" value="true"/>
+    <arg name="start_qrcode_voice" value="true"/>
+    <arg name="start_board2_ocr" value="$(arg start_board2_ocr)"/>
+    <arg name="start_patrol" value="false"/>
+    <arg name="send_goals" value="false"/>
+    <arg name="judge_host" value="$(arg judge_host)"/>
+    <arg name="judge_port" value="$(arg judge_port)"/>
+    <arg name="judge_source_ip" value="$(arg judge_source_ip)"/>
+    <arg name="send_hz" value="$(arg send_hz)"/>
+    <arg name="board1" value="$(arg initial_cv1)"/>
+    <arg name="board2" value="$(arg initial_cv2)"/>
+    <arg name="qr_valid_codes" value="$(arg qr_valid_codes)"/>
+    <arg name="qr_slot_order" value="$(arg qr_slot_order)"/>
+    <arg name="use_live_board1" value="true"/>
+    <arg name="use_live_board2" value="true"/>
+    <arg name="board2_default_wait" value="$(arg board2_default_wait)"/>
+    <arg name="board2_max_wait" value="$(arg board2_max_wait)"/>
+  </include>
+
+  <group if="$(arg start_manual_arrival_voice)">
+    <include file="$(find ros1_smart_pharmacy_patrol)/launch/manual_arrival_voice.launch">
+      <arg name="default_board1" value="$(arg initial_cv1)"/>
+    </include>
+  </group>
+
+  <group if="$(arg start_auto_arrival_detector)">
+    <include file="$(find ros1_smart_pharmacy_patrol)/launch/auto_arrival_detector.launch">
+      <arg name="waypoints" value="$(arg auto_arrival_waypoints)"/>
+      <arg name="pickup_radius" value="$(arg auto_arrival_pickup_radius)"/>
+      <arg name="lab_radius" value="$(arg auto_arrival_lab_radius)"/>
+      <arg name="dwell_sec" value="$(arg auto_arrival_dwell_sec)"/>
+    </include>
+  </group>
+</launch>

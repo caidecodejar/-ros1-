@@ -1,0 +1,37 @@
+<launch>
+  <arg name="image_topics" default="/camera/rgb/image_rect_color,/camera/rgb/image_raw"/>
+  <arg name="cooldown_sec" default="4.0"/>
+  <arg name="vote_window_sec" default="2.5"/>
+  <arg name="vote_frames" default="2"/>
+  <arg name="default_wait" default="5"/>
+  <arg name="max_wait" default="30"/>
+  <arg name="lang" default="chi_sim+eng"/>
+  <arg name="tesseract_config" default="--psm 6"/>
+  <arg name="roi_x1" default="0.10"/>
+  <arg name="roi_y1" default="0.10"/>
+  <arg name="roi_x2" default="0.90"/>
+  <arg name="roi_y2" default="0.90"/>
+  <arg name="enable_audio" default="true"/>
+  <arg name="save_images" default="true"/>
+  <arg name="latest_save_period_sec" default="1.0"/>
+  <arg name="output_dir" default="/home/EPRobot/vision_test"/>
+
+  <node pkg="ros1_smart_pharmacy_patrol" type="board2_ocr_node.py" name="board2_ocr" output="screen">
+    <param name="image_topics" value="$(arg image_topics)"/>
+    <param name="cooldown_sec" value="$(arg cooldown_sec)"/>
+    <param name="vote_window_sec" value="$(arg vote_window_sec)"/>
+    <param name="vote_frames" value="$(arg vote_frames)"/>
+    <param name="default_wait" value="$(arg default_wait)"/>
+    <param name="max_wait" value="$(arg max_wait)"/>
+    <param name="lang" value="$(arg lang)"/>
+    <param name="tesseract_config" value="$(arg tesseract_config)"/>
+    <param name="roi_x1" value="$(arg roi_x1)"/>
+    <param name="roi_y1" value="$(arg roi_y1)"/>
+    <param name="roi_x2" value="$(arg roi_x2)"/>
+    <param name="roi_y2" value="$(arg roi_y2)"/>
+    <param name="enable_audio" value="$(arg enable_audio)"/>
+    <param name="save_images" value="$(arg save_images)"/>
+    <param name="latest_save_period_sec" value="$(arg latest_save_period_sec)"/>
+    <param name="output_dir" value="$(arg output_dir)"/>
+  </node>
+</launch>

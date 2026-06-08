@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# ROS / catkin
+build/
+devel/
+install/
+log/
+logs/
+.catkin_tools/
+*.bag
+*.bag.active
+
+# Generated packages and archives
+dist/
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# Local secrets and machine-specific files
+.env
+*.local
+*_local.*
+secrets.*
+
+# Windows / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+
+# Competition binaries and temporary media
+*.exe
+*.msi
+*.deb
+qr_*_latest*.jpg
+qr_*_detected*.jpg
+rviz_*.png
+*_screenshot*.png
+*.log
+*.tmp

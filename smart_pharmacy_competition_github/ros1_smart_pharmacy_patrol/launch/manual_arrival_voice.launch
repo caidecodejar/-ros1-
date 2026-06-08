@@ -1,0 +1,16 @@
+<launch>
+  <arg name="default_board1" default=""/>
+  <arg name="default_lab" default="1"/>
+  <arg name="enable_audio" default="true"/>
+  <arg name="repeat_pickup" default="false"/>
+
+  <node pkg="ros1_smart_pharmacy_patrol"
+        type="manual_arrival_voice_node.py"
+        name="manual_arrival_voice"
+        output="screen">
+    <param name="default_board1" value="$(arg default_board1)"/>
+    <param name="default_lab" value="$(arg default_lab)"/>
+    <param name="enable_audio" value="$(arg enable_audio)"/>
+    <param name="repeat_pickup" value="$(arg repeat_pickup)"/>
+  </node>
+</launch>

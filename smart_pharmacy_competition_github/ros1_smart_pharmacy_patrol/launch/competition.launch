@@ -1,0 +1,69 @@
+<launch>
+  <arg name="start_judge_bridge" default="true"/>
+  <arg name="start_qrcode_voice" default="false"/>
+  <arg name="start_board2_ocr" default="false"/>
+  <arg name="start_patrol" default="false"/>
+  <arg name="send_goals" default="false"/>
+  <arg name="judge_host" default="192.168.12.248"/>
+  <arg name="judge_port" default="8888"/>
+  <arg name="judge_source_ip" default=""/>
+  <arg name="send_hz" default="5.0"/>
+  <arg name="board1" default="A:1"/>
+  <arg name="board2" default="FREE"/>
+  <arg name="qr_valid_codes" default=""/>
+  <arg name="qr_slot_order" default="1,2,3,4"/>
+  <arg name="use_live_board1" default="false"/>
+  <arg name="use_live_board2" default="false"/>
+  <arg name="execute_all_board1_tasks" default="true"/>
+  <arg name="max_board1_tasks" default="2"/>
+  <arg name="board2_default_wait" default="5"/>
+  <arg name="board2_max_wait" default="30"/>
+  <arg name="board2_apply_only_matching_window" default="true"/>
+  <arg name="timeout" default="120.0"/>
+  <arg name="waypoints" default="$(find ros1_smart_pharmacy_patrol)/config/waypoints_real.yaml"/>
+
+  <group if="$(arg start_judge_bridge)">
+    <include file="$(find ros1_smart_pharmacy_patrol)/launch/judge_bridge.launch">
+      <arg name="judge_host" value="$(arg judge_host)"/>
+      <arg name="judge_port" value="$(arg judge_port)"/>
+      <arg name="source_ip" value="$(arg judge_source_ip)"/>
+      <arg name="send_hz" value="$(arg send_hz)"/>
+      <arg name="initial_task" value="start"/>
+      <arg name="initial_cv1" value="$(arg board1)"/>
+      <arg name="initial_cv2" value="$(arg board2)"/>
+    </include>
+  </group>
+
+  <group if="$(arg start_qrcode_voice)">
+    <include file="$(find ros1_smart_pharmacy_patrol)/launch/qrcode_voice.launch">
+      <arg name="valid_codes" value="$(arg qr_valid_codes)"/>
+      <arg name="slot_mode" value="true"/>
+      <arg name="slot_order" value="$(arg qr_slot_order)"/>
+      <arg name="max_tasks" value="4"/>
+    </include>
+  </group>
+
+  <group if="$(arg start_board2_ocr)">
+    <include file="$(find ros1_smart_pharmacy_patrol)/launch/board2_ocr.launch">
+      <arg name="default_wait" value="$(arg board2_default_wait)"/>
+      <arg name="max_wait" value="$(arg board2_max_wait)"/>
+    </include>
+  </group>
+
+  <group if="$(arg start_patrol)">
+    <include file="$(find ros1_smart_pharmacy_patrol)/launch/patrol.launch">
+      <arg name="send_goals" value="$(arg send_goals)"/>
+      <arg name="board1" value="$(arg board1)"/>
+      <arg name="board2" value="$(arg board2)"/>
+      <arg name="timeout" value="$(arg timeout)"/>
+      <arg name="waypoints" value="$(arg waypoints)"/>
+      <arg name="use_live_board1" value="$(arg use_live_board1)"/>
+      <arg name="use_live_board2" value="$(arg use_live_board2)"/>
+      <arg name="execute_all_board1_tasks" value="$(arg execute_all_board1_tasks)"/>
+      <arg name="max_board1_tasks" value="$(arg max_board1_tasks)"/>
+      <arg name="board2_default_wait" value="$(arg board2_default_wait)"/>
+      <arg name="board2_max_wait" value="$(arg board2_max_wait)"/>
+      <arg name="board2_apply_only_matching_window" value="$(arg board2_apply_only_matching_window)"/>
+    </include>
+  </group>
+</launch>

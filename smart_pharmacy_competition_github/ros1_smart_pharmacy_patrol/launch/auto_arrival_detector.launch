@@ -1,0 +1,32 @@
+<launch>
+  <arg name="waypoints" default="$(find ros1_smart_pharmacy_patrol)/config/waypoints_real.yaml"/>
+  <arg name="map_frame" default="map"/>
+  <arg name="base_frame" default="base_footprint"/>
+  <arg name="pickup_radius" default="0.32"/>
+  <arg name="lab_radius" default="0.32"/>
+  <arg name="dwell_sec" default="1.0"/>
+  <arg name="cooldown_sec" default="12.0"/>
+  <arg name="max_speed" default="0.05"/>
+  <arg name="require_stop" default="true"/>
+  <arg name="require_board1" default="true"/>
+  <arg name="require_collection_for_lab" default="false"/>
+  <arg name="repeat_targets" default="false"/>
+
+  <node pkg="ros1_smart_pharmacy_patrol"
+        type="auto_arrival_detector.py"
+        name="auto_arrival_detector"
+        output="screen">
+    <param name="waypoints" value="$(arg waypoints)"/>
+    <param name="map_frame" value="$(arg map_frame)"/>
+    <param name="base_frame" value="$(arg base_frame)"/>
+    <param name="pickup_radius" value="$(arg pickup_radius)"/>
+    <param name="lab_radius" value="$(arg lab_radius)"/>
+    <param name="dwell_sec" value="$(arg dwell_sec)"/>
+    <param name="cooldown_sec" value="$(arg cooldown_sec)"/>
+    <param name="max_speed" value="$(arg max_speed)"/>
+    <param name="require_stop" value="$(arg require_stop)"/>
+    <param name="require_board1" value="$(arg require_board1)"/>
+    <param name="require_collection_for_lab" value="$(arg require_collection_for_lab)"/>
+    <param name="repeat_targets" value="$(arg repeat_targets)"/>
+  </node>
+</launch>

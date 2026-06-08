@@ -1,0 +1,2470 @@
+{
+  "pix_points": {
+    "start": [
+      68,
+      112
+    ],
+    "A": [
+      82,
+      61
+    ],
+    "B": [
+      98,
+      51
+    ],
+    "C": [
+      97,
+      71
+    ],
+    "1": [
+      36,
+      61
+    ],
+    "2": [
+      52,
+      75
+    ],
+    "3": [
+      36,
+      80
+    ],
+    "4": [
+      52,
+      92
+    ]
+  },
+  "results": [
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "A",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 9.720458146424487,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.1813708498984763
+        },
+        {
+          "from": "A",
+          "to": "1",
+          "ok": true,
+          "dist": 3.32634559672906
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.2127416997969522
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "A",
+        "2",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 9.001219330881977,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.1813708498984763
+        },
+        {
+          "from": "A",
+          "to": "2",
+          "ok": true,
+          "dist": 3.6384776310850238
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": true,
+          "dist": 2.181370849898476
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "A",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 9.45685424949238,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.1813708498984763
+        },
+        {
+          "from": "A",
+          "to": "3",
+          "ok": true,
+          "dist": 4.012741699796952
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.2627416997969525
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "A",
+        "4",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 8.5698484809835,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.1813708498984763
+        },
+        {
+          "from": "A",
+          "to": "4",
+          "ok": true,
+          "dist": 4.0571067811865476
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": true,
+          "dist": 1.3313708498984762
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "B",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.656854249492381,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 3.8470562748477146
+        },
+        {
+          "from": "B",
+          "to": "1",
+          "ok": true,
+          "dist": 3.5970562748477146
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.2127416997969522
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "B",
+        "2",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 9.937615433949869,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 3.8470562748477146
+        },
+        {
+          "from": "B",
+          "to": "2",
+          "ok": true,
+          "dist": 3.909188309203678
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": true,
+          "dist": 2.181370849898476
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "B",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.393250352560274,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 3.8470562748477146
+        },
+        {
+          "from": "B",
+          "to": "3",
+          "ok": true,
+          "dist": 4.283452377915608
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.2627416997969525
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "B",
+        "4",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 9.901219330881977,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 3.8470562748477146
+        },
+        {
+          "from": "B",
+          "to": "4",
+          "ok": true,
+          "dist": 4.722792206135786
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": true,
+          "dist": 1.3313708498984762
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "C",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.176093065034893,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 2.8263455967290594
+        },
+        {
+          "from": "C",
+          "to": "1",
+          "ok": true,
+          "dist": 4.137005768508881
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.2127416997969522
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "C",
+        "2",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 9.45685424949238,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 2.8263455967290594
+        },
+        {
+          "from": "C",
+          "to": "2",
+          "ok": true,
+          "dist": 4.449137802864845
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": true,
+          "dist": 2.181370849898476
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "C",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 9.72253967444162,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 2.8263455967290594
+        },
+        {
+          "from": "C",
+          "to": "3",
+          "ok": true,
+          "dist": 4.633452377915607
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.2627416997969525
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "C",
+        "4",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 7.859797974644666,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 2.8263455967290594
+        },
+        {
+          "from": "C",
+          "to": "4",
+          "ok": true,
+          "dist": 3.7020815280171306
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": true,
+          "dist": 1.3313708498984762
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 12.558935777509513,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.1813708498984763
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "1",
+          "ok": true,
+          "dist": 4.137005768508881
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.2127416997969522
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "2",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 11.839696961967,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.1813708498984763
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "2",
+          "ok": true,
+          "dist": 4.449137802864845
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": true,
+          "dist": 2.181370849898476
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 12.105382386916238,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.1813708498984763
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "3",
+          "ok": true,
+          "dist": 4.633452377915607
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.2627416997969525
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "4",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.242640687119286,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.1813708498984763
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "4",
+          "ok": true,
+          "dist": 3.7020815280171306
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": true,
+          "dist": 1.3313708498984762
+        }
+      ]
+    },
+    {
+      "config": "strict_r0",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "1",
+        "2",
+        "3",
+        "4",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 13.719595949289333,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.1813708498984763
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "1",
+          "ok": true,
+          "dist": 4.137005768508881
+        },
+        {
+          "from": "1",
+          "to": "2",
+          "ok": true,
+          "dist": 1.0899494936611667
+        },
+        {
+          "from": "2",
+          "to": "3",
+          "ok": true,
+          "dist": 0.9035533905932738
+        },
+        {
+          "from": "3",
+          "to": "4",
+          "ok": true,
+          "dist": 1.048528137423857
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": true,
+          "dist": 1.3313708498984762
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "A",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.320458146424489,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.422792206135786
+        },
+        {
+          "from": "A",
+          "to": "1",
+          "ok": true,
+          "dist": 3.567766952966369
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.3298989873223337
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "A",
+        "2",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 9.930508652763322,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.422792206135786
+        },
+        {
+          "from": "A",
+          "to": "2",
+          "ok": true,
+          "dist": 4.209188309203678
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": true,
+          "dist": 2.2985281374238573
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "A",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.174011537017762,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.422792206135786
+        },
+        {
+          "from": "A",
+          "to": "3",
+          "ok": true,
+          "dist": 4.371320343559643
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.379898987322333
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "A",
+        "4",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 9.41126983722081,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.422792206135786
+        },
+        {
+          "from": "A",
+          "to": "4",
+          "ok": true,
+          "dist": 4.539949493661167
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": true,
+          "dist": 1.4485281374238572
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "B",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 11.015432893255072,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 3.964213562373095
+        },
+        {
+          "from": "B",
+          "to": "1",
+          "ok": true,
+          "dist": 3.721320343559643
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.3298989873223337
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "B",
+        "2",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.625483399593904,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 3.964213562373095
+        },
+        {
+          "from": "B",
+          "to": "2",
+          "ok": true,
+          "dist": 4.362741699796952
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": true,
+          "dist": 2.2985281374238573
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "B",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.868986283848345,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 3.964213562373095
+        },
+        {
+          "from": "B",
+          "to": "3",
+          "ok": true,
+          "dist": 4.524873734152917
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.379898987322333
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "B",
+        "4",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.494112549695428,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 3.964213562373095
+        },
+        {
+          "from": "B",
+          "to": "4",
+          "ok": true,
+          "dist": 5.081370849898477
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": true,
+          "dist": 1.4485281374238572
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "C",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.651828996322966,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 2.943502884254441
+        },
+        {
+          "from": "C",
+          "to": "1",
+          "ok": true,
+          "dist": 4.378427124746191
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.3298989873223337
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "C",
+        "2",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.15269119345812,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 2.943502884254441
+        },
+        {
+          "from": "C",
+          "to": "2",
+          "ok": true,
+          "dist": 4.9106601717798215
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": true,
+          "dist": 2.2985281374238573
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "C",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.315432893255071,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 2.943502884254441
+        },
+        {
+          "from": "C",
+          "to": "3",
+          "ok": true,
+          "dist": 4.992031021678297
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.379898987322333
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "C",
+        "4",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 8.45269119345812,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 2.943502884254441
+        },
+        {
+          "from": "C",
+          "to": "4",
+          "ok": true,
+          "dist": 4.060660171779822
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": true,
+          "dist": 1.4485281374238572
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 13.158935777509512,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.422792206135786
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "1",
+          "ok": true,
+          "dist": 4.378427124746191
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.3298989873223337
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "2",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 12.659797974644668,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.422792206135786
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "2",
+          "ok": true,
+          "dist": 4.9106601717798215
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": true,
+          "dist": 2.2985281374238573
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 12.82253967444162,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.422792206135786
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "3",
+          "ok": true,
+          "dist": 4.992031021678297
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.379898987322333
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "4",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.959797974644667,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.422792206135786
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "4",
+          "ok": true,
+          "dist": 4.060660171779822
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": true,
+          "dist": 1.4485281374238572
+        }
+      ]
+    },
+    {
+      "config": "strict_r3",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "1",
+        "2",
+        "3",
+        "4",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 14.348885271170678,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.422792206135786
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "1",
+          "ok": true,
+          "dist": 4.378427124746191
+        },
+        {
+          "from": "1",
+          "to": "2",
+          "ok": true,
+          "dist": 1.119238815542512
+        },
+        {
+          "from": "2",
+          "to": "3",
+          "ok": true,
+          "dist": 0.9035533905932738
+        },
+        {
+          "from": "3",
+          "to": "4",
+          "ok": true,
+          "dist": 1.048528137423857
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": true,
+          "dist": 1.4485281374238572
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "A",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.749747468305834,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "1",
+          "ok": true,
+          "dist": 3.738477631085024
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.4177669529663692
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "A",
+        "2",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "2",
+          "ok": false
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "A",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.691168824543144,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "3",
+          "ok": true,
+          "dist": 4.629898987322334
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.467766952966369
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "A",
+        "4",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "4",
+          "ok": false
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "B",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 11.274011537017762,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 4.052081528017131
+        },
+        {
+          "from": "B",
+          "to": "1",
+          "ok": true,
+          "dist": 3.804163056034262
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.4177669529663692
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "B",
+        "2",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 4.052081528017131
+        },
+        {
+          "from": "B",
+          "to": "2",
+          "ok": false
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "B",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 11.21543289325507,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 4.052081528017131
+        },
+        {
+          "from": "B",
+          "to": "3",
+          "ok": true,
+          "dist": 4.695584412271571
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.467766952966369
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "B",
+        "4",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 4.052081528017131
+        },
+        {
+          "from": "B",
+          "to": "4",
+          "ok": false
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "C",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.99827560572969,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 3.031370849898476
+        },
+        {
+          "from": "C",
+          "to": "1",
+          "ok": true,
+          "dist": 4.549137802864845
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.4177669529663692
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "C",
+        "2",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 3.031370849898476
+        },
+        {
+          "from": "C",
+          "to": "2",
+          "ok": false
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "C",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.749747468305834,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 3.031370849898476
+        },
+        {
+          "from": "C",
+          "to": "3",
+          "ok": true,
+          "dist": 5.250609665440988
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.467766952966369
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "C",
+        "4",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 3.031370849898476
+        },
+        {
+          "from": "C",
+          "to": "4",
+          "ok": false
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 13.588225099390856,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "1",
+          "ok": true,
+          "dist": 4.549137802864845
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.4177669529663692
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "2",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "2",
+          "ok": false
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 13.339696961967,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "3",
+          "ok": true,
+          "dist": 5.250609665440988
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.467766952966369
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "4",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "4",
+          "ok": false
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "strict_r5",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "1",
+        "2",
+        "3",
+        "4",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "1",
+          "ok": true,
+          "dist": 4.549137802864845
+        },
+        {
+          "from": "1",
+          "to": "2",
+          "ok": false
+        },
+        {
+          "from": "2",
+          "to": "3",
+          "ok": false
+        },
+        {
+          "from": "3",
+          "to": "4",
+          "ok": false
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "A",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.749747468305834,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "1",
+          "ok": true,
+          "dist": 3.738477631085024
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.4177669529663692
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "A",
+        "2",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "2",
+          "ok": false
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "A",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.691168824543144,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "3",
+          "ok": true,
+          "dist": 4.629898987322334
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.467766952966369
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "A",
+        "4",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "4",
+          "ok": false
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "B",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 11.274011537017762,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 4.052081528017131
+        },
+        {
+          "from": "B",
+          "to": "1",
+          "ok": true,
+          "dist": 3.804163056034262
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.4177669529663692
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "B",
+        "2",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 4.052081528017131
+        },
+        {
+          "from": "B",
+          "to": "2",
+          "ok": false
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "B",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 11.21543289325507,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 4.052081528017131
+        },
+        {
+          "from": "B",
+          "to": "3",
+          "ok": true,
+          "dist": 4.695584412271571
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.467766952966369
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "B",
+        "4",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "B",
+          "ok": true,
+          "dist": 4.052081528017131
+        },
+        {
+          "from": "B",
+          "to": "4",
+          "ok": false
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "C",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.99827560572969,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 3.031370849898476
+        },
+        {
+          "from": "C",
+          "to": "1",
+          "ok": true,
+          "dist": 4.549137802864845
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.4177669529663692
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "C",
+        "2",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 3.031370849898476
+        },
+        {
+          "from": "C",
+          "to": "2",
+          "ok": false
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "C",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 10.749747468305834,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 3.031370849898476
+        },
+        {
+          "from": "C",
+          "to": "3",
+          "ok": true,
+          "dist": 5.250609665440988
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.467766952966369
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "C",
+        "4",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "C",
+          "ok": true,
+          "dist": 3.031370849898476
+        },
+        {
+          "from": "C",
+          "to": "4",
+          "ok": false
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "1",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 13.588225099390856,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "1",
+          "ok": true,
+          "dist": 4.549137802864845
+        },
+        {
+          "from": "1",
+          "to": "start",
+          "ok": true,
+          "dist": 3.4177669529663692
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "2",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "2",
+          "ok": false
+        },
+        {
+          "from": "2",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "3",
+        "start"
+      ],
+      "ok": true,
+      "total_m": 13.339696961967,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "3",
+          "ok": true,
+          "dist": 5.250609665440988
+        },
+        {
+          "from": "3",
+          "to": "start",
+          "ok": true,
+          "dist": 2.467766952966369
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "4",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "4",
+          "ok": false
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "config": "optimistic_r5",
+      "route": [
+        "start",
+        "A",
+        "B",
+        "C",
+        "1",
+        "2",
+        "3",
+        "4",
+        "start"
+      ],
+      "ok": false,
+      "total_m": null,
+      "segments": [
+        {
+          "from": "start",
+          "to": "A",
+          "ok": true,
+          "dist": 3.5935028842544408
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "ok": true,
+          "dist": 1.0071067811865475
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "ok": true,
+          "dist": 1.0207106781186548
+        },
+        {
+          "from": "C",
+          "to": "1",
+          "ok": true,
+          "dist": 4.549137802864845
+        },
+        {
+          "from": "1",
+          "to": "2",
+          "ok": false
+        },
+        {
+          "from": "2",
+          "to": "3",
+          "ok": false
+        },
+        {
+          "from": "3",
+          "to": "4",
+          "ok": false
+        },
+        {
+          "from": "4",
+          "to": "start",
+          "ok": false
+        }
+      ]
+    }
+  ]
+}

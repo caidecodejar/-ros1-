@@ -1,0 +1,35 @@
+<launch>
+  <arg name="image_topics" default="/camera/rgb/image_rect_color,/camera/rgb/image_raw"/>
+  <arg name="audio_dir" default="$(find ros1_smart_pharmacy_patrol)/sounds/qr_voice"/>
+  <arg name="audio_player" default="aplay"/>
+  <arg name="cooldown_sec" default="5.0"/>
+  <arg name="vote_window_sec" default="2.0"/>
+  <arg name="vote_frames" default="2"/>
+  <arg name="valid_codes" default=""/>
+  <arg name="slot_mode" default="true"/>
+  <arg name="slot_order" default="1,2,3,4"/>
+  <arg name="slot_x_split" default="0.5"/>
+  <arg name="slot_y_split" default="0.5"/>
+  <arg name="max_tasks" default="4"/>
+  <arg name="save_images" default="true"/>
+  <arg name="latest_save_period_sec" default="1.0"/>
+  <arg name="output_dir" default="/home/EPRobot/vision_test"/>
+
+  <node pkg="ros1_smart_pharmacy_patrol" type="qrcode_voice_node.py" name="qrcode_voice" output="screen">
+    <param name="image_topics" value="$(arg image_topics)"/>
+    <param name="audio_dir" value="$(arg audio_dir)"/>
+    <param name="audio_player" value="$(arg audio_player)"/>
+    <param name="cooldown_sec" value="$(arg cooldown_sec)"/>
+    <param name="vote_window_sec" value="$(arg vote_window_sec)"/>
+    <param name="vote_frames" value="$(arg vote_frames)"/>
+    <param name="valid_codes" value="$(arg valid_codes)"/>
+    <param name="slot_mode" value="$(arg slot_mode)"/>
+    <param name="slot_order" value="$(arg slot_order)"/>
+    <param name="slot_x_split" value="$(arg slot_x_split)"/>
+    <param name="slot_y_split" value="$(arg slot_y_split)"/>
+    <param name="max_tasks" value="$(arg max_tasks)"/>
+    <param name="save_images" value="$(arg save_images)"/>
+    <param name="latest_save_period_sec" value="$(arg latest_save_period_sec)"/>
+    <param name="output_dir" value="$(arg output_dir)"/>
+  </node>
+</launch>

@@ -1,0 +1,476 @@
+﻿generated: '2026-06-04'
+planner: offline A* on saved occupancy map free cells, simplified with RDP epsilon
+  0.04m
+map:
+  yaml: <repo-root>\docs\waypoint_sampling_20260603\final_rviz_map_20260603.yaml
+  image: maps/competition/final_rviz_map_20260603.pgm
+  resolution: 0.016
+  origin:
+  - -2.147851
+  - -1.060776
+  - 0.0
+note: These paths are cleaned visualization/reference polylines. Runtime ROS move_base
+  should still plan between the same waypoint goals using costmaps.
+planned_routes:
+  default_AB_to_lab1:
+    sequence:
+    - start
+    - board_1
+    - window_A
+    - window_B
+    - board_2
+    - lab_window_1
+    - start
+    grid_total_m: 8.414
+    segments:
+    - step: 1
+      from: start
+      to: board_1
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 0.733
+      raw_point_count: 46
+      clean_point_count: 2
+      clean_path:
+      - - -0.74
+        - 0.299
+      - - -0.02
+        - 0.267
+    - step: 2
+      from: board_1
+      to: window_A
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 1.339
+      raw_point_count: 71
+      clean_point_count: 5
+      clean_path:
+      - - -0.02
+        - 0.267
+      - - -0.308
+        - 0.555
+      - - -0.468
+        - 0.587
+      - - -0.468
+        - 0.811
+      - - -0.676
+        - 1.259
+    - step: 3
+      from: window_A
+      to: window_B
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 1.0
+      raw_point_count: 61
+      clean_point_count: 3
+      clean_path:
+      - - -0.676
+        - 1.259
+      - - -0.676
+        - 0.507
+      - - -0.58
+        - 0.299
+    - step: 4
+      from: window_B
+      to: board_2
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 2.605
+      raw_point_count: 146
+      clean_point_count: 6
+      clean_path:
+      - - -0.58
+        - 0.299
+      - - -0.58
+        - 1.419
+      - - -0.74
+        - 1.579
+      - - -0.74
+        - 1.915
+      - - -0.356
+        - 2.299
+      - - -0.212
+        - 2.619
+    - step: 5
+      from: board_2
+      to: lab_window_1
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 2.334
+      raw_point_count: 127
+      clean_point_count: 6
+      clean_path:
+      - - -0.212
+        - 2.619
+      - - -0.26
+        - 2.395
+      - - -0.74
+        - 1.915
+      - - -0.74
+        - 1.115
+      - - -0.948
+        - 0.891
+      - - -0.98
+        - 0.603
+    - step: 6
+      from: lab_window_1
+      to: start
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 0.403
+      raw_point_count: 20
+      clean_point_count: 2
+      clean_path:
+      - - -0.98
+        - 0.603
+      - - -0.74
+        - 0.299
+  sampled_manual_loop:
+    sequence:
+    - start
+    - board_1
+    - window_C
+    - board_2
+    - lab_window_1
+    - lab_window_2
+    - lab_window_3
+    - lab_window_4
+    - start
+    grid_total_m: 11.838
+    segments:
+    - step: 1
+      from: start
+      to: board_1
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 0.733
+      raw_point_count: 46
+      clean_point_count: 2
+      clean_path:
+      - - -0.74
+        - 0.299
+      - - -0.02
+        - 0.267
+    - step: 2
+      from: board_1
+      to: window_C
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 1.798
+      raw_point_count: 96
+      clean_point_count: 5
+      clean_path:
+      - - -0.02
+        - 0.267
+      - - 0.284
+        - 0.571
+      - - 0.396
+        - 0.587
+      - - 0.396
+        - 0.923
+      - - 0.748
+        - 1.691
+    - step: 3
+      from: window_C
+      to: board_2
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 1.382
+      raw_point_count: 65
+      clean_point_count: 3
+      clean_path:
+      - - 0.748
+        - 1.691
+      - - 0.076
+        - 2.427
+      - - -0.212
+        - 2.619
+    - step: 4
+      from: board_2
+      to: lab_window_1
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 2.334
+      raw_point_count: 127
+      clean_point_count: 6
+      clean_path:
+      - - -0.212
+        - 2.619
+      - - -0.26
+        - 2.395
+      - - -0.74
+        - 1.915
+      - - -0.74
+        - 1.115
+      - - -0.948
+        - 0.891
+      - - -0.98
+        - 0.603
+    - step: 5
+      from: lab_window_1
+      to: lab_window_2
+      snap_from_m: 0.0
+      snap_to_m: 0.08
+      grid_length_m: 2.045
+      raw_point_count: 116
+      clean_point_count: 5
+      clean_path:
+      - - -0.98
+        - 0.603
+      - - -0.964
+        - 1.115
+      - - -0.74
+        - 1.339
+      - - -0.74
+        - 1.915
+      - - -0.212
+        - 2.171
+    - step: 6
+      from: lab_window_2
+      to: lab_window_3
+      snap_from_m: 0.08
+      snap_to_m: 0.0
+      grid_length_m: 0.875
+      raw_point_count: 47
+      clean_point_count: 4
+      clean_path:
+      - - -0.212
+        - 2.171
+      - - -0.404
+        - 2.075
+      - - -0.692
+        - 2.075
+      - - -0.948
+        - 1.835
+    - step: 7
+      from: lab_window_3
+      to: lab_window_4
+      snap_from_m: 0.0
+      snap_to_m: 0.4
+      grid_length_m: 1.869
+      raw_point_count: 105
+      clean_point_count: 6
+      clean_path:
+      - - -0.948
+        - 1.835
+      - - -0.9
+        - 1.771
+      - - -0.9
+        - 1.355
+      - - -0.468
+        - 0.907
+      - - -0.468
+        - 0.587
+      - - -0.052
+        - 0.571
+    - step: 8
+      from: lab_window_4
+      to: start
+      snap_from_m: 0.4
+      snap_to_m: 0.0
+      grid_length_m: 0.801
+      raw_point_count: 44
+      clean_point_count: 3
+      clean_path:
+      - - -0.052
+        - 0.571
+      - - -0.532
+        - 0.475
+      - - -0.74
+        - 0.299
+  all_targets_coverage:
+    sequence:
+    - start
+    - board_1
+    - window_A
+    - window_B
+    - window_C
+    - board_2
+    - lab_window_1
+    - lab_window_2
+    - lab_window_3
+    - lab_window_4
+    - start
+    grid_total_m: 14.724
+    segments:
+    - step: 1
+      from: start
+      to: board_1
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 0.733
+      raw_point_count: 46
+      clean_point_count: 2
+      clean_path:
+      - - -0.74
+        - 0.299
+      - - -0.02
+        - 0.267
+    - step: 2
+      from: board_1
+      to: window_A
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 1.339
+      raw_point_count: 71
+      clean_point_count: 5
+      clean_path:
+      - - -0.02
+        - 0.267
+      - - -0.308
+        - 0.555
+      - - -0.468
+        - 0.587
+      - - -0.468
+        - 0.811
+      - - -0.676
+        - 1.259
+    - step: 3
+      from: window_A
+      to: window_B
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 1.0
+      raw_point_count: 61
+      clean_point_count: 3
+      clean_path:
+      - - -0.676
+        - 1.259
+      - - -0.676
+        - 0.507
+      - - -0.58
+        - 0.299
+    - step: 4
+      from: window_B
+      to: window_C
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 2.345
+      raw_point_count: 131
+      clean_point_count: 8
+      clean_path:
+      - - -0.58
+        - 0.299
+      - - -0.068
+        - 0.315
+      - - 0.188
+        - 0.571
+      - - 0.396
+        - 0.587
+      - - 0.396
+        - 0.923
+      - - 0.508
+        - 1.163
+      - - 0.732
+        - 1.387
+      - - 0.748
+        - 1.691
+    - step: 5
+      from: window_C
+      to: board_2
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 1.382
+      raw_point_count: 65
+      clean_point_count: 3
+      clean_path:
+      - - 0.748
+        - 1.691
+      - - 0.076
+        - 2.427
+      - - -0.212
+        - 2.619
+    - step: 6
+      from: board_2
+      to: lab_window_1
+      snap_from_m: 0.0
+      snap_to_m: 0.0
+      grid_length_m: 2.334
+      raw_point_count: 127
+      clean_point_count: 6
+      clean_path:
+      - - -0.212
+        - 2.619
+      - - -0.26
+        - 2.395
+      - - -0.74
+        - 1.915
+      - - -0.74
+        - 1.115
+      - - -0.948
+        - 0.891
+      - - -0.98
+        - 0.603
+    - step: 7
+      from: lab_window_1
+      to: lab_window_2
+      snap_from_m: 0.0
+      snap_to_m: 0.08
+      grid_length_m: 2.045
+      raw_point_count: 116
+      clean_point_count: 5
+      clean_path:
+      - - -0.98
+        - 0.603
+      - - -0.964
+        - 1.115
+      - - -0.74
+        - 1.339
+      - - -0.74
+        - 1.915
+      - - -0.212
+        - 2.171
+    - step: 8
+      from: lab_window_2
+      to: lab_window_3
+      snap_from_m: 0.08
+      snap_to_m: 0.0
+      grid_length_m: 0.875
+      raw_point_count: 47
+      clean_point_count: 4
+      clean_path:
+      - - -0.212
+        - 2.171
+      - - -0.404
+        - 2.075
+      - - -0.692
+        - 2.075
+      - - -0.948
+        - 1.835
+    - step: 9
+      from: lab_window_3
+      to: lab_window_4
+      snap_from_m: 0.0
+      snap_to_m: 0.4
+      grid_length_m: 1.869
+      raw_point_count: 105
+      clean_point_count: 6
+      clean_path:
+      - - -0.948
+        - 1.835
+      - - -0.9
+        - 1.771
+      - - -0.9
+        - 1.355
+      - - -0.468
+        - 0.907
+      - - -0.468
+        - 0.587
+      - - -0.052
+        - 0.571
+    - step: 10
+      from: lab_window_4
+      to: start
+      snap_from_m: 0.4
+      snap_to_m: 0.0
+      grid_length_m: 0.801
+      raw_point_count: 44
+      clean_point_count: 3
+      clean_path:
+      - - -0.052
+        - 0.571
+      - - -0.532
+        - 0.475
+      - - -0.74
+        - 0.299
+
